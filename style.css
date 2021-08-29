@@ -1,0 +1,227 @@
+
+
+html{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Klee One', cursive;
+	box-sizing: border-box;
+	
+	
+}
+
+body{
+	
+	background: url(images/background.svg);
+	background-position: center;
+	background-color: #EFECE4;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	
+
+	
+}
+
+/*------------------------HEADER------------------------*/
+
+
+.wave-header{
+	position: absolute;
+	width: 100%;
+}
+
+
+
+
+.header-container{
+
+	width: 90%;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1.5em;
+	position: relative;
+
+}
+
+
+
+.container-logoQuac{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	position: relative;
+	width: 5em;
+
+}
+
+
+.logoQuac__img{
+
+	background: #005E55;
+	box-shadow: 0 0 17px rgba(0, 0, 0, .5);
+	border-radius: 50%;
+	padding: .4em;
+	width: 4.2em;
+	height: 4.2em;
+}
+
+
+
+
+.title{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	text-align: center;
+
+
+	width: 20em;
+	height: 5em;
+	background: #005E55;
+	border-radius: 80px 10px 80px 10px;
+	font-size: .9em;
+	line-height: 1.9em;
+	
+}
+
+
+.title_h1{
+	color: white;
+	font-family: 'Klee One', cursive;
+	font-size: 1.8em;
+	font-weight: normal;
+	padding: 2em;
+	text-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+
+.spantitle{
+	color: lightgoldenrodyellow;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*------------------------SECTION------------------------*/
+
+
+.container-grid{
+
+	
+	width: 70%;
+	margin: 2em auto;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+
+}
+
+
+.tema{
+
+	margin-top: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 0 17px rgba(0, 0, 0, .5);
+	border-radius: 80px 80px 10px 10px;
+	padding: 1em;
+	
+}
+
+.tema:hover{
+	background: #136a8a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	transition: 0.5s;
+	cursor: pointer;
+	color: white;
+}
+
+.img-tema{
+
+}
+
+
+
+
+
+
+
+
+
+/*------------------------FOOTER------------------------*/
+
+
+
+
+
+.footer{
+
+	background: #005E55;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	border-radius: 50px 50px 10px 10px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+.footer-container{
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	font-size: .8rem;
+
+	width: 85%;
+	margin: 0 auto;
+	color: #fff;
+
+
+}
+
+
+.icon{
+	font-size: 1.5em;
+	color: white;
+	align-self: center;
+	margin: 0 .5em;
+	
+}
+
+
+.instagram{
+
+	display: flex;
+
+}
+
+.whatsapp{
+	display: flex;
+}
+
+
+.instagram:hover{
+
+	text-shadow: 5px 2px 11px #02231E;
+	transition: 0.2s;
+	border-radius: 20px;
+	cursor: pointer;
+	color: yellow;
+}
